@@ -21,7 +21,7 @@ function addItem(e) {
     deleteItemLocal(newItem.textContent);
     newItem.classList.remove("edit-class");
     newItem.remove();
-    setEditState = false;
+    editMode = false;
   } else {
     if (checkDuplicate(value.toLowerCase()) === true) {
       alert("Item already in list");
