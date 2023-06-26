@@ -98,8 +98,10 @@ function deleteItem(e) {
       deleteItemLocal(text);
     }
     removeExcess();
-  } else {
+  } else if (e.target.tagName === "LI") {
     setEditState(e.target);
+  } else {
+    return;
   }
 }
 
