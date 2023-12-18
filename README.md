@@ -1,2 +1,2 @@
 # Shopping List Project
-First shopping List app
+A simple shopping List app which uses localstorage for data persistence. 
